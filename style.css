@@ -1,0 +1,188 @@
+
+body{
+    overflow-x: hidden;
+    margin: 0%;
+    padding:0%; 
+}
+.bg{
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 5, 20, 0.52), rgba(0, 0, 0, 0.492)),
+    url('https://4kwallpapers.com/images/wallpapers/alone-surreal-dream-fishes-moon-travel-explorer-4480x2520-1058.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    filter: drop-shadow(20);
+    backdrop-filter:blur(30px);
+}
+
+
+#nameBg{
+    font-family: 'Julee', cursive;
+     
+}
+.nBg1{
+ font-family: 'Courier New', Courier, monospace;
+ padding-top: 15rem;
+ 
+}
+
+
+.cardz{
+display: flex;
+justify-content: space-evenly;
+padding: 20px;
+}
+.card:hover{
+    transition: calc(.5s);
+ transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.bak{
+    height: 220px;
+    width: 450px;
+    margin-left: 400px;
+    margin-top: 200px;background-color: rgba(0, 0, 0, 0.512);
+    backdrop-filter: blur(9px);
+    border-radius: 30px;
+    
+}
+
+.abhome{
+    padding-top: 230px;
+    padding-left: 400px;  
+}
+
+#ab{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: 'Bad Script', cursive;
+}
+.abhome1{
+
+    padding-top: 90px;
+    padding-left: 530px;
+
+}
+.bhli{
+    height: 75px;
+    width: 43.5%;
+    padding: 10px;
+    
+    background-color: rgba(0, 0, 0, 0.536);
+
+
+}
+#ab1{
+ 
+    
+    color: rgb(224, 228, 238) ;
+    font-family: 'Julee', cursive;
+   
+    font-size: 47px;
+
+    
+    text-decoration: underline;
+    
+
+}
+.sos{
+    padding-top: 200px;
+    padding-left: 1178px;
+}
+.card-text{
+text-align: justify; 
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#fo{
+    font-family: 'Bad Script', cursive;
+
+}
+#acap:hover{
+    background-color:rgba(0, 0, 0, 0.344) ;
+    cursor: pointer;
+    text-align: justify;
+}
+#acap{
+    text-align: justify;
+}
+#des1{
+
+    font-family: 'Julee', cursive;
+
+} 
+#des1:hover{
+    cursor: pointer;
+    color: brown;
+}
+.hv:hover{
+        transition: calc(1s);
+        -webkit-transform:scale(1.15);
+        -moz-transform:scale(1.15);
+        -ms-transform:scale(1.15);
+        -o-transform:scale(1.15);
+        transform:scale(1.15);
+     }
+
+
+     @media (max-width:520px){
+        .wrapper {
+            margin-left: 40px;
+            margin-right: 40px;
+            width: 360px;
+            height: 390px;
+        }
+        .div {
+            margin-left: 20px;
+            margin-right: 40px;
+            width: 360px;
+            height: 390px;
+        }
+        form,.button{
+            margin-left: 0px;
+            margin-right: 10px;
+            width: 300px;
+            height: 330px;
+        }
+        .result #animation,
+        .result #animation1 {
+            width: 250px;
+            top: 130px;
+        }
+        .div img{
+            position: absolute;
+            width: 465px;
+            top: -60px;
+            height: 100px;
+        }
+        .card-img{
+            width: 100px;
+            height: 60px;
+        }
+        .footer{
+        text-align:left;
+        padding:5%;
+        }
+        .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+        }
+        .footer .row a i{
+        margin:0% 3%;
+        }
+         .navbar{
+            text-align:left;
+            padding:5%;
+            }
+            .navbar .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:left;
+            }
+            .navbar .row a i{
+            margin:0% 3%;
+            } 
+    }
